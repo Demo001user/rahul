@@ -1,0 +1,77 @@
+.carousel-item{
+    height: 100vh;
+    min-height:300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 0;
+    right:0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 180px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+.carousel-caption h5{
+    font-size: 8rem;
+    font-weight: 700;
+}
+.carousel-caption p{
+font-size: 2rem;
+top: 2rem;
+}
+.slider-btn{
+    margin-top: 30px;
+}
+.slider-btn btn{
+    background-color: #e74c3c;
+    columns: white;
+    border-radius: 50%;
+    padding: 1.5rem;
+    font-size: 1rem;
+    
+}
+.button{
+    background-color: #13ADE5;
+    color: white;
+    
+}
+.button:hover{
+    background-color: #1A3D7D;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.text-justify{
+    text-align: justify;
+}
+.back card{
+    background-color: #13ADE5;
+    color: white;
+}
+.footer{
+    background-color: #1A3D7D;
+}
+.text-color{
+    color: #13ADE5;
+}
+.m{
+    margin: 0;
+    padding-top: 5px;
+}
+ul{
+    list-style-type:none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
